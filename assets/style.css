@@ -1,0 +1,53 @@
+body {
+    background-color: #A7FCA9;
+}
+
+*{
+    text-align: center;
+}
+
+header{
+    font-size: 50pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 3px 3px white;
+
+}
+
+a:visited, a:link{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+#frogNames{
+    font-size: 20pt;
+}
+
+#frogItemTitle{
+    font-size: 25pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 3px 3px white;
+}
+
+#frogItemContent{
+    font-size:15pt;
+    margin: 40px;
+}
+#footer{
+    position: fixed;
+    bottom: 0pt;
+    left: 10pt;
+}
+
+#footerFlex{
+    display: flex;
+    align-items: flex-start;
+}
+
+img{
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
